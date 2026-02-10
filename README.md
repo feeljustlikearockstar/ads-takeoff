@@ -1,2 +1,16 @@
 # ads-takeoff
-Beat records and earn real bonuses for your promotion on VK Advertising!
+
+Мини-игра в стиле **Flappy Bird** на чистом JavaScript и Canvas.
+
+## Как запустить
+
+Откройте `index.html` в браузере или поднимите простой локальный сервер:
+
+```bash
+python3 -m http.server 4173
+```
+
+## Управление
+
+- `Space` или тап по экрану — взмах/старт игры.
+- После проигрыша: `Space` или тап — рестарт.

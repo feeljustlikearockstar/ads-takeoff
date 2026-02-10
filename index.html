@@ -3,14 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flappy VK</title>
+<title>Flappy Bird</title>
 <style>
-html,body{margin:0;padding:0;overflow:hidden;background:#000}
-canvas{display:block;margin:0 auto;}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  touch-action: manipulation;
+}
 </style>
 </head>
 <body>
-<canvas id="game" width="288" height="512"></canvas>
+<canvas id="game" width="320" height="480"></canvas>
 <script src="main.js"></script>
 </body>
 </html>
